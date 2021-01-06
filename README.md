@@ -40,7 +40,7 @@ Save and run ``VoiceMaker.py``. It will take a while. Like, a LONG while.
 
 Once the script ends, launch your game and enjoy!
 
-#To-Do's
+# To-Do's
 
 If you wanna help out, look no further! 
 
