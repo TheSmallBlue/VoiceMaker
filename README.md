@@ -39,3 +39,9 @@ Open ``VoiceMaker.py`` and edit the "characters" list to the character call and 
 Save and run ``VoiceMaker.py``. It will take a while. Like, a LONG while.
 
 Once the script ends, launch your game and enjoy!
+
+#To-Do's
+
+If you wanna help out, look no further! 
+
+*Once all the voices have been created, it'd be nice to have some sort of check to make sure that all voices are there, since 15.ai's servers like to return a 502 error from time to time
