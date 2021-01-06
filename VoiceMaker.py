@@ -60,6 +60,8 @@ with open('dialogue.tab', newline='') as dialogue:
 			continue
 
 		tts_api.save_to_file(final_character,"Neutral",final_text,line[0] + '.wav')
+
 		os.system("ffmpeg -i " + line[0] + ".wav " + line[0] + ".ogg")
+		os.remove(line[0] + ".wav")
 		i = i + 1
 		print(str(i) + '/' + str(3252))
