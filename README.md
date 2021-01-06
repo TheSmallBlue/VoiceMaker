@@ -44,4 +44,4 @@ Once the script ends, launch your game and enjoy!
 
 If you wanna help out, look no further! 
 
-*Once all the voices have been created, it'd be nice to have some sort of check to make sure that all voices are there, since 15.ai's servers like to return a 502 error from time to time
+* Once all the voices have been created, it'd be nice to have some sort of check to make sure that all voices are there, since 15.ai's servers like to return a 502 error from time to time
