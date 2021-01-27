@@ -21,7 +21,7 @@ Back to the launcher, open your "options.rpy" file. Find the "init python:" head
 init python:
 
     #Enables automatic voice 
-    config.auto_voice = "voice/VoiceActingMod/{id}.ogg"
+    config.auto_voice = "voice/{id}.ogg"
     
     
     ## The following functions take file patterns. File patterns are case-
