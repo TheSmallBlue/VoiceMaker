@@ -45,3 +45,11 @@ Once the script ends, launch your game and enjoy!
 If you wanna help out, look no further! 
 
 * Once all the voices have been created, it'd be nice to have some sort of check to make sure that all voices are there, since 15.ai's servers like to return a 502 error from time to time
+
+
+# Extra Notes:
+
+This code can also be used with [My uberduck.ai API](https://github.com/TheSmallBlue/Uberduck.ai-Python-API) just change the following lines in ``VoiceMaker.py``:
+* ``from fifteen_api import FifteenAPI`` to ``from uberduck_api import UberduckAPI``
+* ``tts_api = FifteenAPI()`` to ``tts_api = UberduckAPI()``
+* ``tts_api.save_to_file(final_character,"Neutral",final_text,line[0] + '.wav')`` to ``tts_api.save_to_file(final_character,final_text,line[0] + '.wav')``
