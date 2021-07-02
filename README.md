@@ -49,7 +49,7 @@ If you wanna help out, look no further!
 
 # Extra Notes:
 
-This code can also be used with [My uberduck.ai API](https://github.com/TheSmallBlue/Vo.codes-Python-API) just change the following lines in ``VoiceMaker.py``:
+This code can also be used with [My vo.codes API](https://github.com/TheSmallBlue/Vo.codes-Python-API) just change the following lines in ``VoiceMaker.py``:
 * ``from fifteen_api import FifteenAPI`` to ``from vocodes_api import VocodesAPI``
 * ``tts_api = FifteenAPI()`` to ``tts_api = VocodesAPI()``
 * ``tts_api.save_to_file(final_character,"Neutral",final_text,line[0] + '.wav')`` to ``tts_api.save_to_file(final_character,final_text,line[0] + '.wav')``
